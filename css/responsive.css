@@ -1,0 +1,230 @@
+@media (max-width: 575.98px) {
+    body {
+        font-size: 1rem;
+    }
+    
+    .hero {
+        padding: 2rem 1rem;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+        margin: 1rem auto 0;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    .btn-primary {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+    
+    .card {
+        margin-bottom: 1rem;
+    }
+    
+    .galeria-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    
+    .galeria-grid img {
+        height: 150px;
+    }
+    
+    section#problema > div > div > img.img-fluid {
+        height: 150px;
+    }
+    
+    .carousel {
+        height: 250px;
+    }
+    
+    .modal-dialog {
+        margin: 1rem;
+    }
+    
+    .container {
+        padding: 0 15px;
+    }
+    
+    .navbar-brand {
+        font-size: 1.1rem;
+    }
+    
+    .icon-hover-light {
+        padding-top: 5px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero p {
+        font-size: 1.1rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    .galeria-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+    }
+    
+    .galeria-grid img {
+        height: 180px;
+    }
+    
+    section#problema > div > div > img.img-fluid {
+        height: 180px;
+    }
+    
+    .carousel {
+        height: 300px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .hero h1 {
+        font-size: 3rem;
+    }
+    
+    .hero p {
+        font-size: 1.2rem;
+    }
+    
+    h2 {
+        font-size: 2.2rem;
+    }
+    
+    .galeria-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+    
+    .galeria-grid img {
+        height: 200px;
+    }
+    
+    .carousel {
+        height: 350px;
+    }
+    
+    .btn-primary {
+        padding: 10px 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .hero h1 {
+        font-size: 3.2rem;
+    }
+    
+    .galeria-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+    
+    .galeria-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+}
+
+@media (max-width: 991.98px) {
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .card {
+        margin-bottom: 1.5rem;
+    }
+    
+    .card-text, p {
+        line-height: 1.6;
+    }
+    
+    .modal-dialog {
+        margin: 0.5rem;
+    }
+    
+    .modal-content {
+        border-radius: 8px;
+    }
+}
+
+@media (max-width: 767.98px) and (orientation: landscape) {
+    .hero {
+        padding: 1.5rem 1rem;
+    }
+    
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+    
+    .carousel {
+        height: 200px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    body, p, .card-text {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    
+    .btn-link {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+    
+    .list-group-item {
+        padding: 8px;
+        margin-bottom: 8px;
+    }
+    
+    .navbar-nav {
+        text-align: center;
+    }
+    
+    .navbar-nav .nav-link {
+        padding: 0.75rem 1rem;
+    }
+}
+
+@media print {
+    .hero::before {
+        display: none;
+    }
+    
+    .btn-primary, .btn-link {
+        border: 1px solid #000;
+        background: none !important;
+        color: #000 !important;
+    }
+    
+    .modal {
+        display: none !important;
+    }
+}
